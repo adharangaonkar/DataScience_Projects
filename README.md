@@ -1,7 +1,7 @@
 **Data Science Projects**
 
 
-Individual Academic Projects which cover Basic Statitical Concepts Like:
+Individual Academic Projects which cover Basic Statistical Concepts Like:
 - Bayesian Modeling
 - Hypothesis Testing
 - Bayesian Probability Estimation
