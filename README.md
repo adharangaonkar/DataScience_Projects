@@ -4,6 +4,7 @@
 Individual Academic Projects which cover Basic Statistical Concepts Like:
 - Bayesian Modeling
 - Hypothesis Testing
+- A/B Testing
 - Bayesian Probability Estimation
 
 It also covers Data Science Concepts to Cover Applications like:
