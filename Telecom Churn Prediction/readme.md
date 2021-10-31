@@ -31,4 +31,7 @@ As more data is often desirable for developing ML models, let's use the larger s
 
 ### Key Drivers in Churn
 - Using Gradient Boosting Classifier Feature Importances are caluclated which indicate the major facots leading Customer Churn.
-- Business can improve the retention rate on those lines
+- Business can improve the retention rate on those lines<br>
+
+
+![Key Drivers in Churn](https://github.com/adharangaonkar/DataScience_Projects/blob/master/Telecom%20Churn%20Prediction/images/key_drivers.png)
