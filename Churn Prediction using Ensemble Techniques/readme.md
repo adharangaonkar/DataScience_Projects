@@ -130,6 +130,11 @@ weighted avg | 0.86 | 0.83 |  0.84 | 1000
 ![SHAP](https://github.com/adharangaonkar/DataScience_Projects/blob/master/Churn%20Prediction%20using%20Ensemble%20Techniques/shap.png)
 
 
+## Conclusion
+- Based on the test data, a list of customers which have a high likelihood of Churn have been identified employing the model. The list of Customers can be seen in ```high_churn_list.csv```
+- Based on business requirements, a prioritization matrix can be defined, wherein certain segments of customers are targeted first 
+- These segments can be defined based on insights through data or the business teams' requirements. E.g. Males who are an ActiveMember, have a CreditCard and are from Germany can be prioritized first because the business potentially sees the maximum ROI from them
+
 ## Note on common issues with a model in production
 
 - Data drift / Covariate shift
