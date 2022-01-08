@@ -61,4 +61,30 @@ This notebook contains all the enhanced models as well as hyperparameter tuning.
 
 
 
+## Result Metrics
+
+### Training Metrics
+
+Class/Metric | precision | recall | f1-score | support 
+--- | --- | --- | --- |--- 
+0 | 0.93 | 0.84 | 0.89 | 809 
+1 | 0.53 | 0.75 | 0.62 | 191 
+accuracy |  |  | 0.83 | 1000 
+macro avg | 0.73 | 0.80 | 0.75 | 1000
+weighted avg | 0.86 | 0.83 | 0.84 | 1000 
+
+### Validation Metrics
+
+Class/Metric | precision | recall | f1-score | support 
+--- | --- | --- | --- |--- 
+0 | 0.91 | 0.85 | 0.88 | 842 
+1 | 0.56 | 0.70 | 0.62 | 238 
+accuracy |  |  | 0.81 | 1000 
+macro avg | 0.74 | 0.77 | 0.75 | 1000
+weighted avg | 0.83 | 0.81 |  0.82 | 1000 
+
+
+
+### Test Metrics
+
 
