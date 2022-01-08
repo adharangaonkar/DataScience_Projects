@@ -53,8 +53,11 @@ Run
 
 This will generate baseline statistics which will further need improving
 
+```console
+"Churn Prediction Ensembles.ipynb"
+```
 
-
+This notebook contains all the enhanced models as well as hyperparameter tuning.
 
 
 
