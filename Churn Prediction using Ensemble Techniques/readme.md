@@ -123,3 +123,18 @@ Class/Metric | precision | recall | f1-score | support
 accuracy |  |  | 0.83 | 1000 
 macro avg | 0.73 | 0.80 | 0.75 | 1000
 weighted avg | 0.86 | 0.83 |  0.84 | 1000 
+
+
+## SHAP
+
+![SHAP](https://github.com/adharangaonkar/DataScience_Projects/blob/master/Churn%20Prediction%20using%20Ensemble%20Techniques/shap.png)
+
+
+## Note on common issues with a model in production
+
+- Data drift / Covariate shift
+- Importance of incremental training
+- Ensure parity between training and testing environments (model and library versions etc.)
+- Tracking core business metrics
+- Creation and monitoring of metrics of specific user segments
+- Highlight impact to business folks : Through visualizations, Model can potentially reduce the Churn rate by 30-40% etc.
