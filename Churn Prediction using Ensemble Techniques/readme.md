@@ -59,11 +59,40 @@ This will generate baseline statistics which will further need improving
 
 This notebook contains all the enhanced models as well as hyperparameter tuning.
 
+## Project Workflow
 
+- Structuring and framing a business need into a Machine Learning problem statement
+- Defining relevant metrics and setting the right expectations with business teams
+- Exploratory Data Analysis - Univariate, Bivariate analysis
+- Missing value and outlier treatment
+- Label Encoder/One Hot Encoder and handling new categorical levels in test/production data
+- Target encoding and avoiding data leakage
+- Feature transforms (scaling and normalization)
+- Feature engineering and Feature selection (RFE)
+- Solving class imbalance
+- Model explainability and interpretability through Tree visualizations and SHAP
+- Hyperparameter tuning using RandomSearch and GridSearch
+- Ensembling multiple models
+- Error analysis
+- Wrapping up code using Pipelines for production run
 
 ## Result Metrics
 
-### Training Metrics
+### Best Performing Stacked Model
+
+#### Validation Metrics
+
+Class/Metric | precision | recall | f1-score | support 
+--- | --- | --- | --- |--- 
+0 | 0.90 | 0.88 | 0.89 | 842 
+1 | 0.61 | 0.66 | 0.63 | 238 
+accuracy |  |  | 0.83 | 1000 
+macro avg | 0.76 | 0.77 | 0.76 | 1000
+weighted avg | 0.84 | 0.83 | 0.83 | 1000 
+
+### LightGBM Best Performing model
+
+#### Training Metrics
 
 Class/Metric | precision | recall | f1-score | support 
 --- | --- | --- | --- |--- 
@@ -74,7 +103,7 @@ macro avg | 0.73 | 0.80 | 0.75 | 1000
 weighted avg | 0.86 | 0.83 | 0.84 | 1000 
 
 
-### Validation Metrics
+#### Validation Metrics
 
 Class/Metric | precision | recall | f1-score | support 
 --- | --- | --- | --- |--- 
@@ -85,7 +114,7 @@ macro avg | 0.74 | 0.77 | 0.75 | 1000
 weighted avg | 0.83 | 0.81 |  0.82 | 1000 
 
 
-### Test Metrics
+#### Test Metrics
 
 Class/Metric | precision | recall | f1-score | support 
 --- | --- | --- | --- |--- 
